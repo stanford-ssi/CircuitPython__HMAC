@@ -68,6 +68,7 @@ Create a keyed hash for authenticating a message.
 
     key = hmac.new(secret, msg=msg, digestmod=hashlib.sha256).digest()
 
+
 Contributing
 ============
 
